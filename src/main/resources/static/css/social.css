@@ -1,0 +1,505 @@
+@charset "UTF-8";
+/* Social */
+.fa {
+	padding: 10px;
+	font-size: 24px;
+	width: 42px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-google {
+	background: #dd4b39;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-instagram {
+	background: #d62976;
+	color: white;
+}
+
+.fa-pinterest {
+	background: #cb2027;
+	color: white;
+}
+
+/* End Social */
+td {
+	color: rgba(3, 2, 1);
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a, .heading {
+	font-family: 'Source Serif Pro', serif;
+}
+
+.headline {
+	color: #FF1616;
+	font-family: 'Prosto One', cursive;
+}
+
+/* Nav */
+@media screen and (min-width: 992px) {
+	.mainMenu {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.mainMenu {
+		font-size: 20px;
+	}
+}
+
+a.mainMenu:hover {
+	background-color: rgb(3, 2, 1);
+	color: white;
+	padding: 4px;
+}
+
+a.mainMenu {
+	color: white;
+}
+/* Footer */
+.footer-link:link {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.footer-link:visited {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.footer-link:active {
+	text-decoration: underline;
+	font-size: 16px;
+}
+/* About us */
+.about-tab{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Login */
+@media screen and (max-height: 600px) {
+	.login {
+		height: 99vh;
+	}
+}
+
+@media screen and (min-height: 601px) {
+	.login {
+		height: 84vh;
+	}
+}
+
+@media screen and (min-height: 653px) {
+	.login {
+		height: 85vh;
+	}
+}
+
+@media screen and (min-height: 667px) {
+	.login {
+		height: 80vh;
+	}
+}
+
+@media screen and (min-height: 720px) {
+	.login {
+		height: 74vh;
+	}
+}
+
+@media screen and (min-height: 740px) {
+	.login {
+		height: 72vh;
+	}
+}
+
+@media screen and (min-height: 800px) {
+	.login {
+		height: 77vh;
+	}
+}
+
+@media screen and (min-height: 844px) {
+	.login {
+		height: 63vh;
+	}
+}
+
+@media screen and (min-height: 896px) {
+	.login {
+		height: 60vh;
+	}
+}
+
+@media screen and (min-height: 900px) {
+	.login {
+		height: 77vh;
+	}
+}
+
+@media screen and (min-height: 914px) {
+	.login {
+		height: 59vh;
+	}
+}
+
+@media screen and (min-height: 915px) {
+	.login {
+		height: 58vh;
+	}
+}
+
+@media screen and (min-height: 1024px) {
+	.login {
+		height: 78vh;
+	}
+}
+
+@media screen and (min-height: 1080px) {
+	.login {
+		height: 81vh;
+	}
+}
+
+@media screen and (min-height: 1368px) {
+	.login {
+		height: 84vh;
+	}
+}
+
+/* Registration */
+@media screen and (max-height: 600px) {
+	.register {
+		height: 100vh;
+		margin-bottom: 48px;
+	}
+}
+
+@media screen and (min-height: 601px) {
+	.register {
+		height: 84vh;
+	}
+}
+
+@media screen and (min-height: 653px) {
+	.register {
+		height: 100vh;
+		margin-bottom: 7px;
+	}
+}
+
+@media screen and (min-height: 667px) {
+	.register {
+		height: 96vh;
+	}
+}
+
+@media screen and (min-height: 720px) {
+	.register {
+		height: 91vh;
+	}
+}
+
+@media screen and (min-height: 740px) {
+	.register {
+		height: 88vh;
+	}
+}
+
+@media screen and (min-height: 800px) {
+	.register {
+		height: 83vh;
+	}
+}
+
+@media screen and (min-height: 844px) {
+	.register {
+		height: 78vh;
+	}
+}
+
+@media screen and (min-height: 896px) {
+	.register {
+		height: 75vh;
+	}
+}
+
+@media screen and (min-height: 900px) {
+	.register {
+		height: 76vh;
+	}
+}
+
+@media screen and (min-height: 914px) {
+	.register {
+		height: 71vh;
+	}
+}
+
+@media screen and (min-height: 915px) {
+	.register {
+		height: 73vh;
+	}
+}
+
+@media screen and (min-height: 1024px) {
+	.register {
+		height: 78vh;
+	}
+}
+
+@media screen and (min-height: 1080px) {
+	.register {
+		height: 81vh;
+	}
+}
+
+@media screen and (min-height: 1180px) {
+	.register {
+		height: 81vh;
+	}
+}
+
+@media screen and (min-height: 1368px) {
+	.register {
+		height: 83vh;
+	}
+}
+/* Home Page */
+@media screen and (max-height: 600px) {
+	.home {
+		height: 100vh;
+		margin-bottom: 55px;
+	}
+}
+
+@media screen and (min-height: 601px) {
+	.home {
+		height: 84vh;
+	}
+}
+
+@media screen and (min-height: 653px) {
+	.home {
+		height: 100vh;
+		margin-bottom: 400px;
+	}
+}
+
+@media screen and (min-height: 667px) {
+	.home {
+		height: 100vh;
+		margin-bottom: 275px;
+	}
+}
+
+@media screen and (min-height: 720px) {
+	.home {
+		height: 88vh;
+	}
+}
+
+@media screen and (min-height: 740px) {
+	.home {
+		height: 94vh;
+	}
+}
+
+@media screen and (min-height: 800px) {
+	.home {
+		height: 47vh;
+	}
+}
+
+@media screen and (min-height: 844px) {
+	.home {
+		height: 80vh;
+	}
+}
+
+@media screen and (min-height: 896px) {
+	.home {
+		height: 72vh;
+	}
+}
+
+@media screen and (min-height: 900px) {
+	.home {
+		height: 46vh;
+	}
+}
+
+@media screen and (min-height: 903px) {
+	.home {
+		height: 48vh;
+	}
+}
+
+@media screen and (min-height: 915px) {
+	.home {
+		height: 73vh;
+	}
+}
+
+@media screen and (min-height: 935px) {
+	.home {
+		height: 50vh;
+	}
+}
+
+@media screen and (min-height: 972px) {
+	.home {
+		height: 52vh;
+	}
+}
+
+@media screen and (min-height: 1015px) {
+	.home {
+		height: 54vh;
+	}
+}
+
+@media screen and (min-height: 1050px) {
+	.home {
+		height: 55vh;
+	}
+}
+
+@media screen and (min-height: 1081px) {
+	.home {
+		height: 56vh;
+	}
+}
+
+@media screen and (min-height: 1180px) {
+	.home {
+		height: 58vh;
+	}
+}
+
+@media screen and (min-height: 1368px) {
+	.home {
+		height: 63vh;
+	}
+}
+
+/* Profile */
+@media screen and (min-height: 900px) {
+	.profile {
+		height: 71vh;
+	}
+}
+
+@media screen and (min-height: 1080px) {
+	.profile {
+		height: 76vh;
+	}
+}
+/* View Cars */
+@media screen and (min-height: 900px) {
+	.viewCars {
+		height: 71vh;
+	}
+}
+
+@media screen and (min-height: 1080px) {
+	.viewCars {
+		height: 77vh;
+	}
+}
+/* Car Management */
+@media screen and (min-height: 900px) {
+	.carManage {
+		height: 71vh;
+	}
+}
+
+@media screen and (min-height: 1080px) {
+	.carManage {
+		height: 77vh;
+	}
+}
+/* User Management */
+@media screen and (min-height: 900px) {
+	.userManage {
+		height: 71vh;
+	}
+}
+
+@media screen and (min-height: 1080px) {
+	.userManage {
+		height: 77vh;
+	}
+}
+
+/* Car details */
+@media screen and (min-height: 1080px) {
+	.carDetail {
+		height: 77vh;
+	}
+}
+/* Search Result */
+@media screen and (min-height: 900px) {
+	.searchResult {
+		height: 71vh;
+	}
+}
+
+@media screen and (min-height: 1080px) {
+	.searchResult {
+		height: 77vh;
+	}
+}
+/* Contact */
+@media screen and (min-width: 1400px) {
+	.contact, .address {
+		font-size: 24px;
+	}
+	.wtfu {
+		font-size: 18px;
+		font-family: 'Fira Code', monospace;
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	.contact, .address {
+		font-size: 20px;
+	}
+	.wtfu {
+		font-size: 16px;
+		font-family: 'Fira Code', monospace;
+	}
+}
